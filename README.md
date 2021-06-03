@@ -25,20 +25,22 @@ To perform query 1, table `songplays1` is created with the following columns:
 
 #### Query 2
 > Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182    
-To perform query 2, table `songplays2` is created with the following columns:
-> Column 1 = artist_name
-> Column 2 = song_title
-> Column 3 = user_id
-> Column 4 = user_fname
-> Column 5 = user_lname
-> Column 6 = session_id
-> Column 7 = item_session
-> Primary key = ((user_id, session_id), item_session)
+
+To perform query 2, table `songplays2` is created with the following columns:    
+> Column 1 = artist_name     
+> Column 2 = song_title     
+> Column 3 = user_id     
+> Column 4 = user_fname     
+> Column 5 = user_lname     
+> Column 6 = session_id     
+> Column 7 = item_session     
+> Primary key = ((user_id, session_id), item_session)    
+
 #### Query 3
-> Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'     
-To perform query 3, table `songplays3` is created with the following columns:
-> Column 1 = song_title
-> Column 2 = user_id
-> Column 3 = user_fname
-> Column 4 = user_lname
+> Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'      
+To perform query 3, table `songplays3` is created with the following columns:     
+> Column 1 = song_title     
+> Column 2 = user_id     
+> Column 3 = user_fname     
+> Column 4 = user_lname     
 > Primary key = (song_title, user_id)
