@@ -13,8 +13,9 @@ These files will be first processed to create the data file `event_datafile_new.
 ## Queries    
 For each of the three given queries, I'll design tables accordingly to get the results.
 #### Query 1 
-> Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4     
-To perform query 1, table `songplays1` is created with the following columns:
+> Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4      
+
+To perform query 1, table `songplays1` is created with the following columns:    
 > Column 1 = artist_name    
 > Column 2 = song_title    
 > Column 3 = song_length    
