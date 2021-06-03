@@ -37,7 +37,8 @@ To perform query 2, table `songplays2` is created with the following columns:
 > Primary key = ((user_id, session_id), item_session)    
 
 #### Query 3
-> Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'      
+> Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'    
+
 To perform query 3, table `songplays3` is created with the following columns:     
 > Column 1 = song_title     
 > Column 2 = user_id     
