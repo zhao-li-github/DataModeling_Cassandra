@@ -13,16 +13,17 @@ These files will be first processed to create the data file `event_datafile_new.
 ## Queries    
 For each of the three given queries, I'll design tables accordingly to get the results.
 #### Query 1 
-Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4     
+> Give me the artist, song title and song's length in the music app history that was heard during sessionId = 338, and itemInSession = 4     
 To perform query 1, table `songplays1` is created with the following columns:
-> Column 1 = artist_name
-> Column 2 = song_title
-> Column 3 = song_length
-> Column 4 = session_id
-> Column 5 = item_session
-> Primary key = (session_id, item_session)
+> Column 1 = artist_name    
+> Column 2 = song_title    
+> Column 3 = song_length    
+> Column 4 = session_id    
+> Column 5 = item_session    
+> Primary key = (session_id, item_session)    
+
 #### Query 2
-Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182    
+> Give me only the following: name of artist, song (sorted by itemInSession) and user (first and last name) for userid = 10, sessionid = 182    
 To perform query 2, table `songplays2` is created with the following columns:
 > Column 1 = artist_name
 > Column 2 = song_title
@@ -33,7 +34,7 @@ To perform query 2, table `songplays2` is created with the following columns:
 > Column 7 = item_session
 > Primary key = ((user_id, session_id), item_session)
 #### Query 3
-Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'     
+> Give me every user name (first and last) in my music app history who listened to the song 'All Hands Against His Own'     
 To perform query 3, table `songplays3` is created with the following columns:
 > Column 1 = song_title
 > Column 2 = user_id
